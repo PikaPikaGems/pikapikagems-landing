@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
     <title>PikaPikaGems</title>
     <link rel="icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
 
-    <title>PikaPikaGems - Enjoyable apps to help you master essential Japanese language skills</title>
+    <title>
+      PikaPikaGems - Enjoyable apps to help you master essential Japanese
+      language skills
+    </title>
     <link
       href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400&display=swap"
       rel="stylesheet"
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://pikapikagems.com" />
-    <meta
-      property="og:title"
-      content="PikaPikaGems"
-    />
+    <meta property="og:title" content="PikaPikaGems" />
     <meta
       property="og:description"
       content="Enjoyable apps to help you master essential Japanese language skillsﾟ"
@@ -29,158 +32,179 @@
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://pikapikagems.com" />
-    <meta
-      property="twitter:title"
-      content="PikaPikaGems"
-    />
+    <meta property="twitter:title" content="PikaPikaGems" />
     <meta
       property="twitter:description"
       content="Enjoyable apps to help you master essential Japanese language skills"
     />
     <meta property="twitter:image" content="/pikapikagems-logo.jpg" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;400&display=swap');
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;400&display=swap");
 
-        /* Hide all scrollbars globally */
-        * {
-            -ms-overflow-style: none;  /* IE and Edge */
-            scrollbar-width: none;  /* Firefox */
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-        *::-webkit-scrollbar {
-            display: none;  /* Chrome, Safari, Opera */
-        }
-        
-        body {
-            font-family: 'Avenir Next', Montserrat, -apple-system, BlinkMacSystemFont, sans-serif;
-            min-height: 100dvh;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #ffffff;
-        }
+      /* Hide all scrollbars globally */
+      * {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
 
+      *::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+      }
 
-        ::selection {
-          background: #00ffff;
-          color: black;
-          text-shadow: none;
-        }
-        
+      body {
+        font-family: "Avenir Next", Montserrat, -apple-system,
+          BlinkMacSystemFont, sans-serif;
+        min-height: 100dvh;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+      }
+
+      ::selection {
+        background: #00ffff;
+        color: black;
+        text-shadow: none;
+      }
+
+      .container {
+        text-align: center;
+        max-width: 320px;
+      }
+
+      .logo {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 0.5rem auto;
+        background: linear-gradient(135deg, #78ffd6, #a8edea, #fed6e3);
+        border-radius: 16px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      }
+
+      h1 {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        letter-spacing: -0.01em;
+      }
+
+      .status {
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+        opacity: 0.8;
+      }
+
+      .links {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .link {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.75rem 1rem;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 0.75rem;
+        transition: all 0.2s ease;
+        justify-content: center;
+        white-space: nowrap;
+      }
+
+      .link:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: translateY(-1px);
+      }
+
+      .link-icon {
+        width: 18px;
+        height: 18px;
+        font-size: 1.1rem;
+        margin-top: -5px;
+      }
+
+      @media (max-width: 480px) {
         .container {
-            text-align: center;
-            max-width: 320px;
+          width: 95%;
         }
-        
-        .logo {
-            width: 80px;
-            height:80px;
-            margin: 0 auto 0.5rem auto;
-            background: linear-gradient(135deg, #78ffd6, #a8edea, #fed6e3);
-            border-radius: 16px;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-        }
-        
-        h1 {
-            font-size: 2rem;
-            font-weight: 400;
-            margin-bottom: 1rem;
-            letter-spacing: -0.01em;
-        }
-        
-        .status {
-            font-size: 0.9rem;
-            font-weight: 300;
-            margin-bottom: 2rem;
-            opacity: 0.8;
-        }
-        
-        .links {
-            display: flex;
-            gap: 0.75rem;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        
-        .link {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            padding: 0.75rem 1rem;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: 300;
-            font-size: 0.75rem;
-            transition: all 0.2s ease;
-            justify-content: center;
-            white-space: nowrap;
-        }
-        
-        .link:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: translateY(-1px);
-        }
-        
-        .link-icon {
-            width: 18px;
-            height: 18px;
-            font-size: 1.1rem;
-            margin-top: -5px;
-        }
-        
-        @media (max-width: 480px) {
-            .container {
-                width: 95%;
-            }
-            
-            h1 {
-                font-size: 1.6rem;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <img src="pikapikagems-logo.jpg" class="logo" alt="PikaPikaGems logo">
-    
-        
-        <h1>PikaPikaGems</h1>
 
-        <div class="links">
-            <a href="https://ririkku.com/" target="_blank" rel="noreferrer" class="link">
-                <span class="link-icon">🎤</span>
-                Ririkku
-            </a>
-            
-            <a href="https://kanjiheatmap.com/" target="_blank" rel="noreferrer" class="link">
-                <span class="link-icon">🔥</span>
-                Kanji Heatmap
-            </a>
-            
-            <a href="https://discord.gg/Ash8ZrGb4s" target="_blank" rel="noreferrer" class="link">
-                <span class="link-icon">💬</span>
-                Discord
-            </a>
-            
-            <a href="https://github.com/pikaPikaGems/" target="_blank" rel="noreferrer" class="link">
-                <span class="link-icon">🐙</span>
-                GitHub
-            </a>
-            <a href="https://ko-fi.com/minimithi" target="_blank" rel="noreferrer" class="link">
-                <span class="link-icon">☕</span>
-                Ko-Fi
-            </a>
-        </div>
+        h1 {
+          font-size: 1.6rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="pikapikagems-logo.jpg" class="logo" alt="PikaPikaGems logo" />
+
+      <h1>PikaPikaGems</h1>
+
+      <div class="links">
+        <a
+          href="https://ririkku.com/"
+          target="_blank"
+          rel="noreferrer"
+          class="link"
+        >
+          <span class="link-icon">🎤</span>
+          Ririkku
+        </a>
+
+        <a
+          href="https://kanjiheatmap.com/"
+          target="_blank"
+          rel="noreferrer"
+          class="link"
+        >
+          <span class="link-icon">🔥</span>
+          Kanji Heatmap
+        </a>
+
+        <a
+          href="https://discord.gg/Ash8ZrGb4s"
+          target="_blank"
+          rel="noreferrer"
+          class="link"
+        >
+          <span class="link-icon">💬</span>
+          Discord
+        </a>
+
+        <a
+          href="https://github.com/pikaPikaGems/"
+          target="_blank"
+          rel="noreferrer"
+          class="link"
+        >
+          <span class="link-icon">🐙</span>
+          GitHub
+        </a>
+        <a
+          href="https://ko-fi.com/minimithi"
+          target="_blank"
+          rel="noreferrer"
+          class="link"
+        >
+          <span class="link-icon">☕</span>
+          Ko-Fi
+        </a>
+      </div>
     </div>
-</body>
+  </body>
 </html>
