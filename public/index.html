@@ -53,6 +53,18 @@
         display: none; /* Chrome, Safari, Opera */
       }
 
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip-path: inset(50%);
+        white-space: nowrap;
+        border-width: 0;
+      }
+
       body {
         font-family: "Avenir Next", Montserrat, -apple-system,
           BlinkMacSystemFont, sans-serif;
@@ -146,6 +158,10 @@
     </style>
   </head>
   <body>
+    <p class="sr-only">
+      PikaPikaGems 💎✨: Enjoyable apps to help you master essential Japanese
+      language skills 💪
+    </p>
     <div class="container">
       <img src="pikapikagems-logo.jpg" class="logo" alt="PikaPikaGems logo" />
 
