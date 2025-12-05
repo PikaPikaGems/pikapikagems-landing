@@ -12,6 +12,7 @@ Enjoyable apps to help you master essential Japanese language skills 💪
 ## Contact Us
 
 - [Discord](https://discord.gg/Ash8ZrGb4s)
-- [Github](https://github.com/PikaPikaGems/)
-- [Mithi's Ko-Fi](https://ko-fi.com/minimithi)
+- [GitHub](https://github.com/PikaPikaGems/)
+- [X/Twitter](https://x.com/pikapikagemsjp)
+- [Instagram](https://www.instagram.com/pikapikagems)
 - Email: [admin@pikapikagems.com](mailto:admin@pikapikagems.com)
